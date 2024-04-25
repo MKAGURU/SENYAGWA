@@ -1,0 +1,5 @@
+From FastAPI import FastAPI
+app=fastipa
+@app.get("/")
+async def root:
+    return{"message":"hello world"}
